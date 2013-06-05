@@ -1,0 +1,17 @@
+{
+  "author": {
+    "name": "Sam De La Garza",
+    "email": "sam.dlg@gmail.com"
+  },
+  "license": "MIT",
+  "version": "0.0.1",
+  "name": "auth-server",
+  "devDependencies": {
+    "passport": "~0.1.17",
+    "express": "~3.2.6",
+    "passport-oauth": "~0.1.15"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
