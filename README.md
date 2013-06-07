@@ -6,9 +6,9 @@
     Add in your settings:
 
         {
-            "authorizationURL": "https://staging.api.tradestation.com/v2/authorize",
+            "authorizationURL": "https://sim.api.tradestation.com/v2/authorize",
             "redirectURI": "http://localhost:3000/authorized2",
-            "tokenURL": "https://staging.api.tradestation.com/v2/security/authorize",
+            "tokenURL": "https://sim.api.tradestation.com/v2/security/authorize",
             "clientID": "your client id",
             "clientSecret": "your client secret",
             "callbackURL": "once a code is issued, this is the callback on your server that will issue a token request"
